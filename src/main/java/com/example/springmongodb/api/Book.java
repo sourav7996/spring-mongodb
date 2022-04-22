@@ -1,4 +1,4 @@
-package model;
+package com.example.springmongodb.api;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -11,7 +11,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Setter
 @ToString
 @Document(collection = "Book")
-public class book {
+public class Book {
     @Id
     private int id;
     private String bookName;
